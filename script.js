@@ -137,7 +137,5 @@ function ordenarClientes(array) {
 }
 
 clientes = ordenarClientes(clientes)
-console.log(clientes[0].descricao())
-console.log(clientes[1].descricao())
-console.log(clientes[2].descricao())
-console.log(clientes[3].descricao())
+for (let i = 0; i < clientes.length; i++)
+    console.log(clientes[i]. descricao())
